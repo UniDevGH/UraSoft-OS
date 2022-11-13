@@ -1,0 +1,58 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+:root{background-color: gray;}
+#leftbox {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#toolbox {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: table;
+    margin: auto;
+}
+
+.btn {
+    background-color: #f0f8ffdd !important;
+    height: 50px !important;
+    width: 6% !important;
+    border-radius: 5px 5px 0px 0px !important;
+    margin: 0px 3px !important;
+}
+
+#opt-menu {
+    margin-top: -70px;
+    background-color: #f0f8ffdd;
+}
+
+#brush-menu {
+    margin-top: -130px;
+    background-color: #f0f8ffdd;
+    width: 200px;
+    height: 170px;
+    padding: 35px 30px;
+}
+
+.btn:hover {
+    background-color: #fefefedd !important;
+}
+
+label {
+    display: inline-block;
+}
+
+input[type=color] {
+    margin-top: 10px;
+    float: right;
+    padding: 0px;
+    display: inline-block;
+    height: 30px;
+    width: 50px;
+}
